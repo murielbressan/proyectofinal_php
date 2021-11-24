@@ -28,9 +28,9 @@ $("[id^=eliminar]").click(function () {
   location.reload();
 });
 
-$("#cantidad").change(function () {
+$(".cantidad").change(function () {
   var cantidad = $(this).val();
-  var precio = $("#precio").text();
+  var precio = $(this).parent().parent().find(".precio").text();
   var subtotal = cantidad * precio;
-  $("#subtotal").text(subtotal);
+  $(this).parent().parent().find(".subtotal").text(subtotal);;
 });
