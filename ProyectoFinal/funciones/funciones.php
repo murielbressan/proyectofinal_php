@@ -16,8 +16,6 @@ if (mysqli_num_rows($result) > 0) {
   while($row = mysqli_fetch_assoc($result)) {
     $productos[] = $row;
   }
-} else {
-  echo "0 results";
 }
 return $productos;
 mysqli_close($enlace);
