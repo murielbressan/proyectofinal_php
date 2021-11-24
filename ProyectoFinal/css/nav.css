@@ -1,0 +1,20 @@
+.navbar {
+    margin: 2vh;
+    background: transparent !important;
+    border-radius: 5vh;
+  }
+  
+.navlogin{
+   background: #dec1fb96 !important;
+}
+  .carrito {
+    height: 3vh;
+  }
+  .logo {
+    height: 5vh;
+  }
+  .navbar-brand {
+    font-family: "Lobster Two", cursive;
+    margin-left: 1vh;
+  }
+  

@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap");
+
+body {
+  background-color: #fbfbfb;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headerindex {
+  background: url(/assets/img/header_.webp) no-repeat center center fixed;
+  background-size: cover;
+  height: 30rem;
+  width: auto;
+  margin-top: 1rem;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  border-top-left-radius: 5vh;
+  border-top-right-radius: 5vh;
+}
+
+section {
+  background-color: #dec1fb96;
+  height: auto;
+  border-bottom-left-radius: 5vh;
+  border-bottom-right-radius: 5vh;
+  margin: 2vh;
+  text-align: center;
+}
+
+section h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #4c3e61;
+  margin-top: 5vh;
+}
+section h5 {
+  color: white;
+  text-shadow: 1px 1px 2px #4c3e61;
+}
+.imgproducto {
+  background-repeat: no-repeat;
+  /* background-position: 50%; */
+  background-size: 100%;
+  border-radius: 50%;
+  background-size: 100% auto;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.nombreproduct {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1vh;
+  color: white;
+  text-shadow: 1px 1px 2px #4c3e61;
+}
+
+.precioproduct {
+  color: #4c3e61;
+}
+
+.btn-agregar {
+  background-color: #4c3e61;
+  color: white;
+}
+.btn-agregar:hover {
+  background-color: #3d2d46;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+/* LOGIN / REGISTRO */
+.bodylogin {
+  background-color: #ffffff;
+}
+.headerlogin {
+  background-image: url(../assets/img/cocinera.jpg);
+  position: relative;
+
+  height: 90vh;
+
+  background-position-y: bottom;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 70vh;
+}
+
+.login,
+.registro {
+  background: #dec1fb96;
+  padding: 3vh;
+  border-radius: 2vh;
+  font-family: "Poppins", sans-serif;
+  color: rgb(15, 14, 15);
+  width: auto;
+}
+.login h1,
+.registro h1 {
+  font-weight: 800 !important;
+}
+.login a {
+  text-decoration: none;
+  color: #745f97;
+}
+.login a:hover {
+  color: #554470;
+}
+.login button:hover {
+  color: #745f97;
+}
+
+.registro button {
+  background-color: #574263;
+  color: white;
+}
+/*Carrito*/
+.btn-comprar {
+  width: auto;
+  background-color: #574263;
+  color: white;
+  margin-bottom: 2rem;
+}
+.btn-comprar:hover {
+  background-color: #3d2d46;
+  color: white;
+  margin-bottom: 2rem;
+}
+.contenedortable {
+  overflow-x: auto;
+  width: auto;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgb(187, 187, 187);
+  text-align: center;
+  width: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+footer i {
+  color: #4c3e61;
+}
+
+@media (max-width: 600px) {
+  .imgproducto {
+    background-repeat: no-repeat;
+    /* background-position: 50%; */
+    background-size: 50%;
+    border-radius: 50%;
+    background-size: 50% auto;
+    width: 5rem;
+    height: 5rem;
+    overflow: hidden;
+  }
+}
