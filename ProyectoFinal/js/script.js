@@ -32,5 +32,11 @@ $(".cantidad").change(function () {
   var cantidad = $(this).val();
   var precio = $(this).parent().parent().find(".precio").text();
   var subtotal = cantidad * precio;
-  $(this).parent().parent().find(".subtotal").text(subtotal);;
+  $(this).parent().parent().find(".subtotal").text(subtotal);
+
+  total = 0;
+  $(".subtotal").each(function () {
+    total = parseInt($(this).text()) + total;
+  });
+  $("#total").text(total);
 });
