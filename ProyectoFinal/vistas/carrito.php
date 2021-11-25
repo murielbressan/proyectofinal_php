@@ -1,4 +1,3 @@
-  <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -15,14 +14,14 @@
  <link href="../css/nav.css" rel="stylesheet">
 
     </head>
- 
+    <?php session_start(); ?>
     <body id="page-top">
         <!-- Navigation-->
 
         <?php include('../modelos/navbar.php') ?>
 
         <!-- Carrito-->
-      <section class="" id="carrito">
+        <section class="" id="carrito">
             <div class="container">
                 <div class="row ms-auto text-center">
                   <h3 class="mb-4 mt-4"><i class="fas fa-shopping-basket fa-lg pr-3 "></i>carrito de compras</h3>
@@ -46,7 +45,7 @@
                           <td class="align-middle "><img class="imgproducto" src="<?php echo $item['img'];?>" /></td>
                           <td class="align-middle text-left"><?php echo $item['nombre'];?></td>
                           <td class="align-middle text-center">
-                            <input type="number" class="form-control cantidad" placeholder="01">
+                            <input type="number" class="form-control cantidad" value="1" placeholder="01">
                           </td>
                           <td class="align-middle text-center"><span class="precio"><?php echo $item['precio'];?></span></td>
                           <td class="align-middle text-center">$<span class="subtotal"><?php echo $item['precio'];?></span></td>
@@ -58,7 +57,7 @@
 
                       </tbody>
                     </table>
-
+                          <h4 class="total" >Total: <span id="total"></span></h4>
 
                   </div>
                 </div>
@@ -67,6 +66,7 @@
                 </div>
             </div>
         </section>
+
         
 
 

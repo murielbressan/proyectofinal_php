@@ -7,7 +7,7 @@ body {
   padding: 0;
 }
 
-a {
+a{
   text-decoration: none;
 }
 
@@ -38,11 +38,11 @@ section h3 {
   color: #4c3e61;
   margin-top: 5vh;
 }
-section h5 {
+section h5{
   color: white;
-  text-shadow: 1px 1px 2px #4c3e61;
+  text-shadow: 1px 1px 2px  #4c3e61;
 }
-.imgproducto {
+.imgproducto{
   background-repeat: no-repeat;
   /* background-position: 50%; */
   background-size: 100%;
@@ -51,13 +51,15 @@ section h5 {
   width: 200px;
   height: 200px;
   overflow: hidden;
+ 
 }
 
 .nombreproduct {
   font-family: "Poppins", sans-serif;
   margin-top: 1vh;
   color: white;
-  text-shadow: 1px 1px 2px #4c3e61;
+  text-shadow: 1px 1px 2px  #4c3e61;
+
 }
 
 .precioproduct {
@@ -68,19 +70,20 @@ section h5 {
   background-color: #4c3e61;
   color: white;
 }
-.btn-agregar:hover {
-  background-color: #3d2d46;
+.btn-agregar:hover{
+  background-color: #3d2d46 ;
   color: white;
   margin-bottom: 2rem;
-}
+  }
+
 
 /* LOGIN / REGISTRO */
-.bodylogin {
+.bodylogin{
   background-color: #ffffff;
+  
 }
 .headerlogin {
-  background-image: url(../assets/img/cocinera.jpg);
-  position: relative;
+  background-image: url(../assets/img/cocinera.jpg);position: relative;
 
   height: 90vh;
 
@@ -91,66 +94,70 @@ section h5 {
   background-size: 70vh;
 }
 
-.login,
-.registro {
-  background: #dec1fb96;
+.login, .registro {
+  background: #dec1fb96 ;
   padding: 3vh;
   border-radius: 2vh;
   font-family: "Poppins", sans-serif;
   color: rgb(15, 14, 15);
   width: auto;
 }
-.login h1,
-.registro h1 {
-  font-weight: 800 !important;
+.login h1, .registro h1{
+font-weight: 800 !important;
 }
-.login a {
+.login a{
   text-decoration: none;
-  color: #745f97;
+  color:#745f97
 }
-.login a:hover {
-  color: #554470;
+.login a:hover{
+  color:#554470
 }
-.login button:hover {
-  color: #745f97;
+.login button:hover{
+ color: #745f97;
 }
 
-.registro button {
-  background-color: #574263;
+
+.registro button{
+  background-color: #574263; 
   color: white;
+  
 }
 /*Carrito*/
-.btn-comprar {
-  width: auto;
-  background-color: #574263;
+.btn-comprar{
+width: auto;
+background-color: #574263 ;
+color: white;
+margin-bottom: 2rem;
+}
+.btn-comprar:hover{
+  background-color: #3d2d46 ;
   color: white;
   margin-bottom: 2rem;
-}
-.btn-comprar:hover {
-  background-color: #3d2d46;
-  color: white;
-  margin-bottom: 2rem;
-}
-.contenedortable {
-  overflow-x: auto;
+  }
+.contenedortable{
+  overflow-x:auto;
   width: auto;
 }
 
+.total{
+  color: black;
+}
 /* Footer */
 
-footer {
+footer{
   background-color: rgb(187, 187, 187);
   text-align: center;
   width: auto;
   font-family: "Poppins", sans-serif;
 }
 
-footer i {
+footer i{
   color: #4c3e61;
 }
 
+
 @media (max-width: 600px) {
-  .imgproducto {
+  .imgproducto{
     background-repeat: no-repeat;
     /* background-position: 50%; */
     background-size: 50%;
@@ -159,5 +166,6 @@ footer i {
     width: 5rem;
     height: 5rem;
     overflow: hidden;
+   
   }
 }
